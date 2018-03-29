@@ -34,6 +34,8 @@ public class NumberListAnalyzerTest {
         numbers.add(3);
         numbers.add(1);
         numbers.add(1);
+        numbers.add(1);
+        numbers.add(1);
         
         noNumbers = new ArrayList<>();
     }
@@ -75,9 +77,9 @@ public class NumberListAnalyzerTest {
     public void testGetWeightedAverage() throws OperationNotSupportedException {
         System.out.println("getWeightedAverage");
         NumberListAnalyzer instance = new NumberListAnalyzer(numbers);
-        double expResult = 4.0;
+        double expResult = 2.75;
         double result = instance.getWeightedAverage();
-        assertEquals(expResult, result, 1);
+        assertEquals(expResult, result, 0.00001);
     }
 
     /**
