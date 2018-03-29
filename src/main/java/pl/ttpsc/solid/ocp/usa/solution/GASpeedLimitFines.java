@@ -9,7 +9,7 @@ package pl.ttpsc.solid.ocp.usa.solution;
  *
  * @author Siwy
  */
-public class GASpeedLimitFines implements USASpeedLimitFines{
+public class GASpeedLimitFines implements IUSASpeedLimitFines{
     
     private static final int MAX_SPEED = 0;
     

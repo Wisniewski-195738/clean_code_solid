@@ -9,7 +9,7 @@ package pl.ttpsc.solid.ocp.usa.solution;
  *
  * @author Siwy
  */
-public class SCSpeedLimitFines implements USASpeedLimitFines{
+public class SCSpeedLimitFines implements IUSASpeedLimitFines{
     
     private static final int MAX_SPEED = 0;
     

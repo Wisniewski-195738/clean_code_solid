@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pl.ttpsc.solid.ocp.usa.solution;
+package pl.ttpsc.solid.lsp.shape;
 
 /**
  *
  * @author Siwy
  */
-public interface USASpeedLimitFines {
-    public double calcualateSpeedLimitFine(int speed);
+public interface IShape {
+    double getPerimeter();
+    double getSurfaceArea();
 }
